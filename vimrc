@@ -19,31 +19,31 @@ set tabstop=8
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-
-set encoding=utf-8
-set scrolloff=3
-set autoindent
-set showmode
-set showcmd
-set hidden
-set wildmenu
-set wildmode=list:longest
-set visualbell
-set ttyfast
-set ruler
-set backspace=indent,eol,start
-set laststatus=2
-set relativenumber
-set undofile
-
 set wrap
 set textwidth=79
 set formatoptions=cqrn1j
 
-let mapleader=","
+set autoindent
+set backspace=indent,eol,start
+set encoding=utf-8
+set hidden
+set laststatus=2
+set nonumber
+set norelativenumber
+set ruler
+set scrolloff=3
+set showcmd
+set showmode
+set splitbelow
+set splitright
+set ttyfast
+set visualbell
+set wildmenu
+set wildmode=list:longest
 
-nnoremap j gj
-nnoremap k gk
+set undofile
+set undodir=~/tmp/undo//
+set noswapfile
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
