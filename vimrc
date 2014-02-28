@@ -16,8 +16,8 @@ colorscheme solarized
 set background=dark
 
 set tabstop=8
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set wrap
 set textwidth=79
